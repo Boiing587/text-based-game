@@ -1,0 +1,49 @@
+STORY:
+An experienced adventurer has been hearing rumors of a mansion filled with undescribable trasures and riches. 
+Intruiged, he eventually finds the location of this mysterious mansion and makes his way there. 
+After trekking through a thick forest, he finally arrives. 
+
+
+DOCUMENTATION:
+
+2019
+Friday, November 1st:
+  Update 1
+    Project has been started. Graphics for hallways and locked doors has been made and imported to the main python file. 
+    The basic plot of the story is in place, and will be expanded as I flesh the game out further.
+
+    To do:
+      - Come up with a fancy title for the game
+      - Make some sort of title screen the player meets before starting the game
+      - Start coding the intro
+
+  Update 2
+    First section of the game has been implemented and the game is now functional to an extent. 
+    Text speed has also been implemented to let users choose how fast they want the text to be written out in case someone needs more time to read.
+
+    To do:
+      - Brainstorm possible story choices.
+      - Maintain my will to live
+
+Wednesday, November 6th:
+  Update 1
+    Major progress has been made on the game. 
+    I have added a whole new section to the game with 3 paths you have to progress through before you are able to continue with the game. 
+    An instant text speed for testing purposes has also been implemented to get quickly through the earlier parts of the game.
+
+    To do:
+      - Plan the second part of the game
+      - Make it
+      - Big brian
+
+Thursday, November 21st:
+  Update 1
+    The second part of the game is coming along nicely.
+    It features new and different mechanics to keep the game from becoming stale.
+    Minor improvements have been made.
+    Easter egg added. Better start looking :)
+
+    To do:
+      - Figure out what the hell I should do with the next part of the game
+      - Maybe?? come to a conclusion soon
+      - Fun mechanics
