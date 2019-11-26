@@ -1,4 +1,3 @@
-#!usr/bin/env python3
 from art.hallway_straight import hallwayStraight
 from art.corner_left import cornerLeft
 from art.corner_right import cornerRight
@@ -41,11 +40,11 @@ def tw(text, sleep=.05):
 straight = ['straight', 'ahead', 'forward', 'up']
 back = ['back', 'return', 'down', 'run', 'run away']
 interact = ['take', 'steal', 'yoink', 'use', 'pick', 'pick up', 'interact', 'investigate', 'search' 'yeet', 'push']
-kill = ['kill', 'slaugher', 'murder', 'stab', 'decapitate']
+kill = ['kill', 'slaughter', 'murder', 'stab', 'decapitate']
 
-
-print("WARNING: Please do not enter anything into the terminal while text is being displayed. \nIt may interfere with choice making functions. \nI am way too lazy to do anything about that.")
-time.sleep(5)
+clearScreen()
+tw("WARNING: Please do not enter anything into the terminal while text is being displayed. \nIt may interfere with choice making functions. \nI am way too lazy to do anything about that.")
+time.sleep(2)
 clearScreen()
 time.sleep(1)
 #INTRODUCTION
@@ -307,7 +306,7 @@ while True:
                       if getEquip == 1:
                         print("Think fast! What should you do? \n - Run away \n \n - Kill skeleton")
                         choice = input("> ")
-                        if choice.lower() in back: ###############
+                        if choice.lower() in back:
                           tw("You hurry back out of the room and shut the door behind you. The skeleton shouldn't be able to open it.")
                           break
                         elif choice.lower() in kill:
